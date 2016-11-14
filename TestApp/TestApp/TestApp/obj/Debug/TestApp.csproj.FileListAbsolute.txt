@@ -1,0 +1,144 @@
+C:\Users\User\Documents\Projects\TestApp\TestApp\bin\Debug\TestApp.dll
+C:\Users\User\Documents\Projects\TestApp\TestApp\bin\Debug\TestApp.pdb
+C:\Users\User\Documents\Projects\TestApp\TestApp\bin\Debug\com.companyname.testapp.apk
+C:\Users\User\Documents\Projects\TestApp\TestApp\bin\Debug\com.companyname.testapp-Signed.apk
+C:\Users\User\Documents\Projects\TestApp\TestApp\bin\Debug\Calligraphy.dll
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\TestApp.dll
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\TestApp.pdb
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\android\bin\com.companyname.testapp.apk
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\res\layout\loading.xml
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\res\values\strings.xml
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\res\mipmap-hdpi\icon.png
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\res\mipmap-mdpi\icon.png
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\res\mipmap-xhdpi\icon.png
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\res\mipmap-xxhdpi\icon.png
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\res\mipmap-xxxhdpi\icon.png
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\res\layout\login.xml
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\res\drawable\background.jpg
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\res\drawable\avivo_in_corso.png
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\res\values\dimen.xml
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\res\drawable\d.png
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\res\drawable\loading_animation.png
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\res\drawable\powered_by.png
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\res\drawable\work.png
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\res\anim\rotate.xml
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\res\values-large\dimen.xml
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\res\values-xlarge\dimen.xml
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\res\drawable\icon_right_top.png
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\res\drawable\logo_cliente.png
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\res\drawable\poweredby.png
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\res\drawable\work_icon_center.png
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\res\drawable\versione.png
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\res\drawable\rect.xml
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\res\drawable\buttons.xml
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\res\drawable\button2.xml
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\res\drawable\checkbox.xml
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\res\drawable\checkbox_states.xml
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\res\drawable\pin_states.xml
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\res\drawable\button_states.xml
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\res\drawable\button_pressed.xml
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\res\drawable\rect_pressed.xml
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\res\drawable\rect_states.xml
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\res\drawable\big_button_states.xml
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\res\drawable\big_button_pressed.xml
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\res\drawable\c_checked.xml
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\res\drawable\checkbox_normal.xml
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\res\drawable\check_hide.xml
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\R.cs.flag
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\uploadflags.txt
+C:\Users\User\Documents\Projects\TestApp\TestApp\bin\Debug\TestApp.dll.mdb
+C:\Users\User\Documents\Projects\TestApp\TestApp\bin\Debug\Java.Interop.dll.mdb
+C:\Users\User\Documents\Projects\TestApp\TestApp\bin\Debug\Mono.Android.dll.mdb
+C:\Users\User\Documents\Projects\TestApp\TestApp\bin\Debug\mscorlib.dll.mdb
+C:\Users\User\Documents\Projects\TestApp\TestApp\bin\Debug\System.ComponentModel.Composition.dll.mdb
+C:\Users\User\Documents\Projects\TestApp\TestApp\bin\Debug\System.Core.dll.mdb
+C:\Users\User\Documents\Projects\TestApp\TestApp\bin\Debug\System.dll.mdb
+C:\Users\User\Documents\Projects\TestApp\TestApp\bin\Debug\System.Net.Http.dll.mdb
+C:\Users\User\Documents\Projects\TestApp\TestApp\bin\Debug\System.Runtime.Serialization.dll.mdb
+C:\Users\User\Documents\Projects\TestApp\TestApp\bin\Debug\System.ServiceModel.Internals.dll.mdb
+C:\Users\User\Documents\Projects\TestApp\TestApp\bin\Debug\System.Xml.dll.mdb
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\android\assets\Java.Interop.dll.mdb
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\android\assets\Mono.Android.dll.mdb
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\android\assets\mscorlib.dll.mdb
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\android\assets\System.Core.dll.mdb
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\android\assets\System.dll.mdb
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\android\assets\System.Net.Http.dll.mdb
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\android\assets\System.Xml.dll.mdb
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\android\assets\TestApp.dll.mdb
+C:\Users\User\Documents\Projects\TestApp\TestApp\obj\Debug\TestApp.dll.mdb
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\bin\Debug\TestApp.dll
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\bin\Debug\TestApp.pdb
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\bin\Debug\com.companyname.testapp.apk
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\bin\Debug\com.companyname.testapp-Signed.apk
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\bin\Debug\Calligraphy.dll
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\TestApp.dll
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\TestApp.pdb
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\android\bin\com.companyname.testapp.apk
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\res\layout\loading.xml
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\res\values\strings.xml
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\res\mipmap-hdpi\icon.png
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\res\mipmap-mdpi\icon.png
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\res\mipmap-xhdpi\icon.png
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\res\mipmap-xxhdpi\icon.png
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\res\mipmap-xxxhdpi\icon.png
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\res\layout\login.xml
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\res\drawable\background.jpg
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\res\drawable\avivo_in_corso.png
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\res\values\dimen.xml
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\res\drawable\d.png
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\res\drawable\loading_animation.png
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\res\drawable\powered_by.png
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\res\drawable\work.png
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\res\anim\rotate.xml
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\res\values-large\dimen.xml
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\res\values-xlarge\dimen.xml
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\res\drawable\icon_right_top.png
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\res\drawable\logo_cliente.png
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\res\drawable\poweredby.png
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\res\drawable\work_icon_center.png
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\res\drawable\versione.png
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\res\drawable\rect.xml
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\res\drawable\buttons.xml
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\res\drawable\button2.xml
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\res\drawable\checkbox.xml
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\res\drawable\checkbox_states.xml
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\res\drawable\pin_states.xml
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\res\drawable\button_states.xml
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\res\drawable\button_pressed.xml
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\res\drawable\rect_pressed.xml
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\res\drawable\rect_states.xml
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\res\drawable\big_button_states.xml
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\res\drawable\big_button_pressed.xml
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\res\drawable\c_checked.xml
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\res\drawable\checkbox_normal.xml
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\res\drawable\check_hide.xml
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\R.cs.flag
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\uploadflags.txt
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\bin\Debug\TestApp.dll.mdb
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\bin\Debug\Java.Interop.dll.mdb
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\bin\Debug\Mono.Android.dll.mdb
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\bin\Debug\mscorlib.dll.mdb
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\bin\Debug\System.ComponentModel.Composition.dll.mdb
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\bin\Debug\System.Core.dll.mdb
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\bin\Debug\System.dll.mdb
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\bin\Debug\System.Net.Http.dll.mdb
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\bin\Debug\System.Runtime.Serialization.dll.mdb
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\bin\Debug\System.ServiceModel.Internals.dll.mdb
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\bin\Debug\System.Xml.dll.mdb
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\android\assets\Java.Interop.dll.mdb
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\android\assets\Mono.Android.dll.mdb
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\android\assets\mscorlib.dll.mdb
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\android\assets\System.Core.dll.mdb
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\android\assets\System.dll.mdb
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\android\assets\System.Net.Http.dll.mdb
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\android\assets\System.Xml.dll.mdb
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\android\assets\TestApp.dll.mdb
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\TestApp.csprojResolveAssemblyReference.cache
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\obj\Debug\TestApp.dll.mdb
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\TestApp\TestApp\TestApp\bin\Debug\TestApp.dll.mdb

@@ -1,0 +1,8 @@
+TestApp.MainActivity, TestApp;md5cf27010e14af20e69784a5a54418b85f.MainActivity
+TestApp.MainActivity, TestApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5cf27010e14af20e69784a5a54418b85f.MainActivity
+TestApp.MainActivity;md5cf27010e14af20e69784a5a54418b85f.MainActivity
+testapp.MainActivity;md5cf27010e14af20e69784a5a54418b85f.MainActivity
+TestApp.LogIn, TestApp;md5cf27010e14af20e69784a5a54418b85f.LogIn
+TestApp.LogIn, TestApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5cf27010e14af20e69784a5a54418b85f.LogIn
+TestApp.LogIn;md5cf27010e14af20e69784a5a54418b85f.LogIn
+testapp.LogIn;md5cf27010e14af20e69784a5a54418b85f.LogIn

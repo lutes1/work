@@ -1,0 +1,16 @@
+Laborator_2.MainActivity, Laborator 2;md5ff869f3e4ead9931224c516d3574d745.MainActivity
+Laborator_2.MainActivity, Laborator 2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5ff869f3e4ead9931224c516d3574d745.MainActivity
+Laborator_2.MainActivity;md5ff869f3e4ead9931224c516d3574d745.MainActivity
+laborator_2.MainActivity;md5ff869f3e4ead9931224c516d3574d745.MainActivity
+Laborator_2.Activitati.AddActivity, Laborator 2;md59e7233be7cede1f88ed2076438635e67.AddActivity
+Laborator_2.Activitati.AddActivity, Laborator 2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md59e7233be7cede1f88ed2076438635e67.AddActivity
+Laborator_2.Activitati.AddActivity;md59e7233be7cede1f88ed2076438635e67.AddActivity
+laborator_2.activitati.AddActivity;md59e7233be7cede1f88ed2076438635e67.AddActivity
+Laborator_2.Activitati.RemoveActivity, Laborator 2;md59e7233be7cede1f88ed2076438635e67.RemoveActivity
+Laborator_2.Activitati.RemoveActivity, Laborator 2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md59e7233be7cede1f88ed2076438635e67.RemoveActivity
+Laborator_2.Activitati.RemoveActivity;md59e7233be7cede1f88ed2076438635e67.RemoveActivity
+laborator_2.activitati.RemoveActivity;md59e7233be7cede1f88ed2076438635e67.RemoveActivity
+Laborator_2.Activitati.UpdateActivity, Laborator 2;md59e7233be7cede1f88ed2076438635e67.UpdateActivity
+Laborator_2.Activitati.UpdateActivity, Laborator 2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md59e7233be7cede1f88ed2076438635e67.UpdateActivity
+Laborator_2.Activitati.UpdateActivity;md59e7233be7cede1f88ed2076438635e67.UpdateActivity
+laborator_2.activitati.UpdateActivity;md59e7233be7cede1f88ed2076438635e67.UpdateActivity

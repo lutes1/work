@@ -1,0 +1,17 @@
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\Laborator 2\Laborator 2\bin\Debug\Laborator 2.dll
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\Laborator 2\Laborator 2\bin\Debug\Laborator 2.pdb
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\Laborator 2\Laborator 2\bin\Debug\Laborator_2.Laborator_2.apk
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\Laborator 2\Laborator 2\bin\Debug\Laborator_2.Laborator_2-Signed.apk
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\Laborator 2\Laborator 2\obj\Debug\Laborator 2.dll
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\Laborator 2\Laborator 2\obj\Debug\Laborator 2.pdb
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\Laborator 2\Laborator 2\obj\Debug\android\bin\Laborator_2.Laborator_2.apk
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\Laborator 2\Laborator 2\obj\Debug\res\layout\addlayout.xml
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\Laborator 2\Laborator 2\obj\Debug\res\layout\updatelayout.xml
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\Laborator 2\Laborator 2\obj\Debug\res\layout\removelayout.xml
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\Laborator 2\Laborator 2\obj\Debug\res\layout\main.xml
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\Laborator 2\Laborator 2\obj\Debug\res\values\strings.xml
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\Laborator 2\Laborator 2\obj\Debug\res\drawable\icon.png
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\Laborator 2\Laborator 2\obj\Debug\R.cs.flag
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\Laborator 2\Laborator 2\obj\Debug\uploadflags.txt
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\Laborator 2\Laborator 2\obj\Debug\Laborator 2.dll.mdb
+C:\Users\PeterPan\Documents\Visual Studio 2015\Projects\Laborator 2\Laborator 2\bin\Debug\Laborator 2.dll.mdb

@@ -1,0 +1,13 @@
+﻿<Properties StartupConfiguration="{215DA4A5-0B36-435C-9528-9C9B6FBD2E0A}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestApp\Activity\LogIn.cs">
+    <Files>
+      <File FileName="TestApp\Activity\LogIn.cs" Line="44" Column="6" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.TestApp AndroidDesignerPreferredDevice="Nexus 4" AndroidDesignerPreferredTheme="Theme.Black.NoTitleBar" PreferredExecutionTarget="Android.f6d0befd" />
+</Properties>

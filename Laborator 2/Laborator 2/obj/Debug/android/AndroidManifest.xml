@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="Laborator_2.Laborator_2" android:versionCode="1" android:versionName="1.0">
+  <!--suppress UsesMinSdkAttributes-->
+  <uses-sdk android:minSdkVersion="16" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <application android:label="Laborator_2" android:name="android.app.Application" android:allowBackup="true" android:icon="@drawable/icon" android:debuggable="true">
+    <activity android:icon="@drawable/icon" android:label="Laborator_2" android:name="md5ff869f3e4ead9931224c516d3574d745.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:label="AddActivity" android:name="md59e7233be7cede1f88ed2076438635e67.AddActivity" />
+    <activity android:label="RemoveActivity" android:name="md59e7233be7cede1f88ed2076438635e67.RemoveActivity" />
+    <activity android:label="UpdateActivity" android:name="md59e7233be7cede1f88ed2076438635e67.UpdateActivity" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="Laborator_2.Laborator_2.mono.MonoRuntimeProvider.__mono_init__" />
+    <!--suppress ExportedReceiver-->
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.Laborator_2.Laborator_2" />
+      </intent-filter>
+    </receiver>
+  </application>
+</manifest>
