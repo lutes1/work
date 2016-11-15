@@ -46,16 +46,15 @@ namespace TestApp
 
 			ImageView images = row.FindViewById<ImageView>(Resource.Id.image);
 			ImageView images1 = row.FindViewById<ImageView>(Resource.Id.image2);
-			var path = Android.Net.Uri.Parse(items[position]);
+
 			Console.WriteLine(position);
-			if (position % 2 == 1)
-			{
-				images.SetImageURI(path);
-			}
-			else if (position % 2 == 0)
-			{
-				images1.SetImageURI(path);
-			}
+			long id = GetItemId(position);
+
+			var path = Android.Net.Uri.Parse(items[position]);
+
+			images.SetImageURI(path);
+			images1.SetImageURI(path);
+
 			return row;
 		}
 	}

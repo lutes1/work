@@ -44,11 +44,11 @@
 	<dimen name="middle_box_x">213dp</dimen>
 	<dimen name="text_size_big">30dp</dimen>
 	<dimen name="bin_size">35dp</dimen>
-	<dimen name="list_view_height">440dp</dimen>
+	<dimen name="list_view_height">348dp</dimen>
 	<dimen name="arrow_size">50dp</dimen>
 	<dimen name="arrows_view_margin">30dp</dimen>
-	<dimen name="image_view_height">110dp</dimen>
-	<dimen name="image_view_width">155dp</dimen>
+	<dimen name="image_view_height">87dp</dimen>
+	<dimen name="image_view_width">165dp</dimen>
 	
 
 	

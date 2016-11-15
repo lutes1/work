@@ -116,7 +116,6 @@ containing a value of this type.
         public static final int imageView2=0x7f06000b;
         public static final int imageView3=0x7f06000c;
         public static final int imageView4=0x7f06000d;
-        public static final int imageView5=0x7f06002c;
         public static final int imageView6=0x7f060029;
         public static final int linearLayout1=0x7f060003;
         public static final int linearLayout2=0x7f060005;

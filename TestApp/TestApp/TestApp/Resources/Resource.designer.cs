@@ -359,9 +359,6 @@ namespace TestApp
 			// aapt resource value: 0x7f06000d
 			public const int imageView4 = 2131099661;
 			
-			// aapt resource value: 0x7f06002c
-			public const int imageView5 = 2131099692;
-			
 			// aapt resource value: 0x7f060029
 			public const int imageView6 = 2131099689;
 			
