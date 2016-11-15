@@ -6,3 +6,11 @@ TestApp.LogIn, TestApp;md5cf27010e14af20e69784a5a54418b85f.LogIn
 TestApp.LogIn, TestApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5cf27010e14af20e69784a5a54418b85f.LogIn
 TestApp.LogIn;md5cf27010e14af20e69784a5a54418b85f.LogIn
 testapp.LogIn;md5cf27010e14af20e69784a5a54418b85f.LogIn
+TestApp.photosPopUp, TestApp;md5cf27010e14af20e69784a5a54418b85f.photosPopUp
+TestApp.photosPopUp, TestApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5cf27010e14af20e69784a5a54418b85f.photosPopUp
+TestApp.photosPopUp;md5cf27010e14af20e69784a5a54418b85f.photosPopUp
+testapp.photosPopUp;md5cf27010e14af20e69784a5a54418b85f.photosPopUp
+TestApp.Adapter, TestApp;md5cf27010e14af20e69784a5a54418b85f.Adapter
+TestApp.Adapter, TestApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5cf27010e14af20e69784a5a54418b85f.Adapter
+TestApp.Adapter;md5cf27010e14af20e69784a5a54418b85f.Adapter
+testapp.Adapter;md5cf27010e14af20e69784a5a54418b85f.Adapter

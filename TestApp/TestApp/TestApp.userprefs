@@ -1,12 +1,15 @@
-﻿<Properties StartupConfiguration="{215DA4A5-0B36-435C-9528-9C9B6FBD2E0A}|Default">
+﻿<Properties StartupConfiguration="{215DA4A5-0B36-435C-9528-9C9B6FBD2E0A}|Default" StartupItem="TestApp\TestApp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="TestApp\Activity\LogIn.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="TestApp\Activity\LogIn.cs" Line="44" Column="6" />
+      <File FileName="TestApp\Activity\LogIn.cs" Line="49" Column="10" />
+      <File FileName="TestApp\Fragments\photosPopUp.cs" Line="42" Column="47" />
+      <File FileName="TestApp\Resources\values\dimen.xml" Line="52" Column="13" />
+      <File FileName="TestApp\Work\FontSet.cs" Line="53" Column="69" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.TestApp AndroidDesignerPreferredDevice="Nexus 4" AndroidDesignerPreferredTheme="Theme.Black.NoTitleBar" PreferredExecutionTarget="Android.f6d0befd" />

@@ -1,6 +1,7 @@
 ﻿
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 
@@ -18,58 +19,37 @@ namespace TestApp
 	[Activity(Theme = "@android:style/Theme.NoTitleBar")]
 	public class LogIn : Activity
 	{
-		Typeface typeface;
-          Button bigButton;
-
-
+		
+        Button logInButton;
+		FontSet fontSet;
+		ViewGroup viewGroup_main;
           protected override void OnCreate(Bundle savedInstanceState)
 		{
 			base.OnCreate(savedInstanceState);
 			SetContentView(Resource.Layout.LogIn);
+			viewsFinder();
+			eventHandlers();
+			fontSet = new FontSet(this);
+			fontSet.loopLayout(viewGroup_main);
 
-			TextView textview1 = FindViewById<TextView>(Resource.Id.textView1);
-			string path = "fonts/BebasNeueRegular.ttf";
-			typeface = Typeface.CreateFromAsset(Assets, path);
-               
-               var viewGroup = FindViewById<LinearLayout>(Resource.Id.linearLayoutpage);
-			loopLayout(viewGroup);
-               
 		}
-
-		public void loopLayout(ViewGroup viewGroup) {
-
-			for (int i = 0; i < viewGroup.ChildCount; i++)
-			{
-				var childView = viewGroup.GetChildAt(i);
-
-                    if (childView is ViewGroup)
-                    {
-                         for (int j = 0; j < ((ViewGroup)childView).ChildCount; j++)
-                         {
-                              var childView2 = ((ViewGroup)childView).GetChildAt(j);
-                              changeFont(childView2);
-                         }
-                    }
-                    if(childView is View)
-                    {
-                         changeFont(childView);
-                    }
-
-			}
+		//find views
+		public void viewsFinder() { 
+			viewGroup_main = FindViewById<ViewGroup>(Resource.Id.linearLayoutpage);
+			logInButton = FindViewById<Button>(Resource.Id.button1);
 		}
-		public void changeFont(View childview) {
-
-               if (childview is ViewGroup)
-                    loopLayout((ViewGroup)childview);
-
-               else if (childview is TextView)
-			{
-				((TextView)childview).SetTypeface(typeface, TypefaceStyle.Normal);
-			}
-			else if (childview is Button)
-			{
-				((Button)childview).SetTypeface(typeface, TypefaceStyle.Normal);
-			}
+		//event handlers
+		public void eventHandlers() { 
+			logInButton.Click += LogInButton_Click;
 		}
+          //button click handler-->popup
+        void LogInButton_Click(object sender, EventArgs e)
+        {
+			photosPopUp popUp = new photosPopUp(this);
+			FragmentTransaction transaction = FragmentManager.BeginTransaction();
+            popUp.Show(transaction, "popup");
+
+        }
+
 	}
 }

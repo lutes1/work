@@ -72,11 +72,20 @@ namespace TestApp
 			// aapt resource value: 0x7f070008
 			public const int animation_margin_top = 2131165192;
 			
+			// aapt resource value: 0x7f07002d
+			public const int arrow_size = 2131165229;
+			
+			// aapt resource value: 0x7f07002e
+			public const int arrows_view_margin = 2131165230;
+			
 			// aapt resource value: 0x7f070000
 			public const int avivo_in_corso_height = 2131165184;
 			
 			// aapt resource value: 0x7f07000a
 			public const int avivo_in_corso_margin_top = 2131165194;
+			
+			// aapt resource value: 0x7f07002b
+			public const int bin_size = 2131165227;
 			
 			// aapt resource value: 0x7f070022
 			public const int button1_height = 2131165218;
@@ -95,6 +104,15 @@ namespace TestApp
 			
 			// aapt resource value: 0x7f070028
 			public const int checkbox_xy = 2131165224;
+			
+			// aapt resource value: 0x7f07002f
+			public const int image_view_height = 2131165231;
+			
+			// aapt resource value: 0x7f070030
+			public const int image_view_width = 2131165232;
+			
+			// aapt resource value: 0x7f07002c
+			public const int list_view_height = 2131165228;
 			
 			// aapt resource value: 0x7f070003
 			public const int loading_animation_height = 2131165187;
@@ -174,6 +192,9 @@ namespace TestApp
 			// aapt resource value: 0x7f07000b
 			public const int text_size = 2131165195;
 			
+			// aapt resource value: 0x7f07002a
+			public const int text_size_big = 2131165226;
+			
 			// aapt resource value: 0x7f07001c
 			public const int top_bar_height = 2131165212;
 			
@@ -209,76 +230,91 @@ namespace TestApp
 			public const int background = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int big_button_pressed = 2130837506;
+			public const int background2_popup = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public const int big_button_states = 2130837507;
+			public const int background_popup = 2130837507;
 			
 			// aapt resource value: 0x7f020004
-			public const int Button2 = 2130837508;
+			public const int big_button_pressed = 2130837508;
 			
 			// aapt resource value: 0x7f020005
-			public const int button_pressed = 2130837509;
+			public const int big_button_states = 2130837509;
 			
 			// aapt resource value: 0x7f020006
-			public const int button_states = 2130837510;
+			public const int bin = 2130837510;
 			
 			// aapt resource value: 0x7f020007
-			public const int Buttons = 2130837511;
+			public const int Button2 = 2130837511;
 			
 			// aapt resource value: 0x7f020008
-			public const int c_checked = 2130837512;
+			public const int button_pressed = 2130837512;
 			
 			// aapt resource value: 0x7f020009
-			public const int check_hide = 2130837513;
+			public const int button_states = 2130837513;
 			
 			// aapt resource value: 0x7f02000a
-			public const int checkbox = 2130837514;
+			public const int Buttons = 2130837514;
 			
 			// aapt resource value: 0x7f02000b
-			public const int checkbox_normal = 2130837515;
+			public const int c_checked = 2130837515;
 			
 			// aapt resource value: 0x7f02000c
-			public const int checkbox_states = 2130837516;
+			public const int check_hide = 2130837516;
 			
 			// aapt resource value: 0x7f02000d
-			public const int D = 2130837517;
+			public const int checkbox = 2130837517;
 			
 			// aapt resource value: 0x7f02000e
-			public const int icon_right_top = 2130837518;
+			public const int checkbox_normal = 2130837518;
 			
 			// aapt resource value: 0x7f02000f
-			public const int loading_animation = 2130837519;
+			public const int checkbox_states = 2130837519;
 			
 			// aapt resource value: 0x7f020010
-			public const int logo_cliente = 2130837520;
+			public const int D = 2130837520;
 			
 			// aapt resource value: 0x7f020011
-			public const int pin_states = 2130837521;
+			public const int icon_right_top = 2130837521;
 			
 			// aapt resource value: 0x7f020012
-			public const int powered_by = 2130837522;
+			public const int leftArrow = 2130837522;
 			
 			// aapt resource value: 0x7f020013
-			public const int poweredby = 2130837523;
+			public const int loading_animation = 2130837523;
 			
 			// aapt resource value: 0x7f020014
-			public const int rect = 2130837524;
+			public const int logo_cliente = 2130837524;
 			
 			// aapt resource value: 0x7f020015
-			public const int rect_pressed = 2130837525;
+			public const int pin_states = 2130837525;
 			
 			// aapt resource value: 0x7f020016
-			public const int rect_states = 2130837526;
+			public const int powered_by = 2130837526;
 			
 			// aapt resource value: 0x7f020017
-			public const int versione = 2130837527;
+			public const int poweredby = 2130837527;
 			
 			// aapt resource value: 0x7f020018
-			public const int work = 2130837528;
+			public const int rect = 2130837528;
 			
 			// aapt resource value: 0x7f020019
-			public const int work_icon_center = 2130837529;
+			public const int rect_pressed = 2130837529;
+			
+			// aapt resource value: 0x7f02001a
+			public const int rect_states = 2130837530;
+			
+			// aapt resource value: 0x7f02001b
+			public const int rightArrow = 2130837531;
+			
+			// aapt resource value: 0x7f02001c
+			public const int versione = 2130837532;
+			
+			// aapt resource value: 0x7f02001d
+			public const int work = 2130837533;
+			
+			// aapt resource value: 0x7f02001e
+			public const int work_icon_center = 2130837534;
 			
 			static Drawable()
 			{
@@ -293,119 +329,140 @@ namespace TestApp
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f060013
-			public const int button1 = 2131099667;
+			// aapt resource value: 0x7f060018
+			public const int button1 = 2131099672;
 			
-			// aapt resource value: 0x7f060017
-			public const int button2 = 2131099671;
+			// aapt resource value: 0x7f06001b
+			public const int button2 = 2131099675;
 			
 			// aapt resource value: 0x7f060000
 			public const int calligraphy_tag_id = 2131099648;
 			
-			// aapt resource value: 0x7f060012
-			public const int checkBox1 = 2131099666;
+			// aapt resource value: 0x7f060017
+			public const int checkBox1 = 2131099671;
 			
-			// aapt resource value: 0x7f060002
-			public const int imageView1 = 2131099650;
+			// aapt resource value: 0x7f06002b
+			public const int image = 2131099691;
 			
-			// aapt resource value: 0x7f060003
-			public const int imageView2 = 2131099651;
-			
-			// aapt resource value: 0x7f060004
-			public const int imageView3 = 2131099652;
-			
-			// aapt resource value: 0x7f060005
-			public const int imageView4 = 2131099653;
-			
-			// aapt resource value: 0x7f060025
-			public const int imageView6 = 2131099685;
-			
-			// aapt resource value: 0x7f060001
-			public const int linearLayout1 = 2131099649;
-			
-			// aapt resource value: 0x7f06000e
-			public const int linearLayout3 = 2131099662;
-			
-			// aapt resource value: 0x7f060010
-			public const int linearLayout4 = 2131099664;
-			
-			// aapt resource value: 0x7f060015
-			public const int linearLayout5 = 2131099669;
-			
-			// aapt resource value: 0x7f060007
-			public const int linearLayoutpage = 2131099655;
-			
-			// aapt resource value: 0x7f060006
-			public const int loading = 2131099654;
-			
-			// aapt resource value: 0x7f060014
-			public const int relativeLayout2 = 2131099668;
-			
-			// aapt resource value: 0x7f060019
-			public const int relativeLayout3 = 2131099673;
-			
-			// aapt resource value: 0x7f060024
-			public const int relativeLayout4 = 2131099684;
-			
-			// aapt resource value: 0x7f060018
-			public const int relativeLayout5 = 2131099672;
-			
-			// aapt resource value: 0x7f060009
-			public const int relativeLayout6 = 2131099657;
-			
-			// aapt resource value: 0x7f06000a
-			public const int textView1 = 2131099658;
-			
-			// aapt resource value: 0x7f06001c
-			public const int textView10 = 2131099676;
-			
-			// aapt resource value: 0x7f06001d
-			public const int textView11 = 2131099677;
-			
-			// aapt resource value: 0x7f06001e
-			public const int textView12 = 2131099678;
-			
-			// aapt resource value: 0x7f06001f
-			public const int textView13 = 2131099679;
-			
-			// aapt resource value: 0x7f060020
-			public const int textView14 = 2131099680;
-			
-			// aapt resource value: 0x7f060021
-			public const int textView15 = 2131099681;
-			
-			// aapt resource value: 0x7f060022
-			public const int textView16 = 2131099682;
-			
-			// aapt resource value: 0x7f060023
-			public const int textView17 = 2131099683;
-			
-			// aapt resource value: 0x7f06000b
-			public const int textView2 = 2131099659;
-			
-			// aapt resource value: 0x7f06000c
-			public const int textView3 = 2131099660;
-			
-			// aapt resource value: 0x7f06000d
-			public const int textView4 = 2131099661;
-			
-			// aapt resource value: 0x7f06000f
-			public const int textView5 = 2131099663;
-			
-			// aapt resource value: 0x7f060011
-			public const int textView6 = 2131099665;
-			
-			// aapt resource value: 0x7f060016
-			public const int textView7 = 2131099670;
-			
-			// aapt resource value: 0x7f06001a
-			public const int textView8 = 2131099674;
-			
-			// aapt resource value: 0x7f06001b
-			public const int textView9 = 2131099675;
+			// aapt resource value: 0x7f06002a
+			public const int image2 = 2131099690;
 			
 			// aapt resource value: 0x7f060008
-			public const int top_bar = 2131099656;
+			public const int imageView1 = 2131099656;
+			
+			// aapt resource value: 0x7f06000b
+			public const int imageView2 = 2131099659;
+			
+			// aapt resource value: 0x7f06000c
+			public const int imageView3 = 2131099660;
+			
+			// aapt resource value: 0x7f06000d
+			public const int imageView4 = 2131099661;
+			
+			// aapt resource value: 0x7f06002c
+			public const int imageView5 = 2131099692;
+			
+			// aapt resource value: 0x7f060029
+			public const int imageView6 = 2131099689;
+			
+			// aapt resource value: 0x7f060003
+			public const int linearLayout1 = 2131099651;
+			
+			// aapt resource value: 0x7f060005
+			public const int linearLayout2 = 2131099653;
+			
+			// aapt resource value: 0x7f060013
+			public const int linearLayout3 = 2131099667;
+			
+			// aapt resource value: 0x7f060015
+			public const int linearLayout4 = 2131099669;
+			
+			// aapt resource value: 0x7f060019
+			public const int linearLayout5 = 2131099673;
+			
+			// aapt resource value: 0x7f06000f
+			public const int linearLayoutpage = 2131099663;
+			
+			// aapt resource value: 0x7f060001
+			public const int linear_layout_popup = 2131099649;
+			
+			// aapt resource value: 0x7f060009
+			public const int listView1 = 2131099657;
+			
+			// aapt resource value: 0x7f06000e
+			public const int loading = 2131099662;
+			
+			// aapt resource value: 0x7f060002
+			public const int relativeLayout1 = 2131099650;
+			
+			// aapt resource value: 0x7f06000a
+			public const int relativeLayout2 = 2131099658;
+			
+			// aapt resource value: 0x7f06001d
+			public const int relativeLayout3 = 2131099677;
+			
+			// aapt resource value: 0x7f060028
+			public const int relativeLayout4 = 2131099688;
+			
+			// aapt resource value: 0x7f06001c
+			public const int relativeLayout5 = 2131099676;
+			
+			// aapt resource value: 0x7f060011
+			public const int relativeLayout6 = 2131099665;
+			
+			// aapt resource value: 0x7f060004
+			public const int textView1 = 2131099652;
+			
+			// aapt resource value: 0x7f060020
+			public const int textView10 = 2131099680;
+			
+			// aapt resource value: 0x7f060021
+			public const int textView11 = 2131099681;
+			
+			// aapt resource value: 0x7f060022
+			public const int textView12 = 2131099682;
+			
+			// aapt resource value: 0x7f060023
+			public const int textView13 = 2131099683;
+			
+			// aapt resource value: 0x7f060024
+			public const int textView14 = 2131099684;
+			
+			// aapt resource value: 0x7f060025
+			public const int textView15 = 2131099685;
+			
+			// aapt resource value: 0x7f060026
+			public const int textView16 = 2131099686;
+			
+			// aapt resource value: 0x7f060027
+			public const int textView17 = 2131099687;
+			
+			// aapt resource value: 0x7f060006
+			public const int textView2 = 2131099654;
+			
+			// aapt resource value: 0x7f060007
+			public const int textView3 = 2131099655;
+			
+			// aapt resource value: 0x7f060012
+			public const int textView4 = 2131099666;
+			
+			// aapt resource value: 0x7f060014
+			public const int textView5 = 2131099668;
+			
+			// aapt resource value: 0x7f060016
+			public const int textView6 = 2131099670;
+			
+			// aapt resource value: 0x7f06001a
+			public const int textView7 = 2131099674;
+			
+			// aapt resource value: 0x7f06001e
+			public const int textView8 = 2131099678;
+			
+			// aapt resource value: 0x7f06001f
+			public const int textView9 = 2131099679;
+			
+			// aapt resource value: 0x7f060010
+			public const int top_bar = 2131099664;
 			
 			static Id()
 			{
@@ -421,10 +478,16 @@ namespace TestApp
 		{
 			
 			// aapt resource value: 0x7f040000
-			public const int Loading = 2130968576;
+			public const int Fragment = 2130968576;
 			
 			// aapt resource value: 0x7f040001
-			public const int LogIn = 2130968577;
+			public const int Loading = 2130968577;
+			
+			// aapt resource value: 0x7f040002
+			public const int LogIn = 2130968578;
+			
+			// aapt resource value: 0x7f040003
+			public const int rowLayout = 2130968579;
 			
 			static Layout()
 			{
