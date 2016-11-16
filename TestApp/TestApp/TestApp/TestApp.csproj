@@ -53,6 +53,7 @@
     <Compile Include="Fragments\photosPopUp.cs" />
     <Compile Include="Work\FontSet.cs" />
     <Compile Include="Adapters\Adapter.cs" />
+    <Compile Include="Work\ImageSet.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -66,6 +67,8 @@
     <AndroidResource Include="Resources\drawable\rightArrow.png" />
     <AndroidResource Include="Resources\drawable\leftArrow.png" />
     <AndroidResource Include="Resources\layout\rowLayout.axml" />
+    <AndroidResource Include="Resources\drawable\oneSelected.png" />
+    <AndroidResource Include="Resources\drawable\oneTapped.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Loading.axml" />

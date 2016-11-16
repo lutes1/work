@@ -153,6 +153,7 @@ C:\Users\User\Desktop\home_work\work\TestApp\TestApp\TestApp\obj\Debug\res\layou
 C:\Users\User\Desktop\home_work\work\TestApp\TestApp\TestApp\obj\Debug\res\drawable\bin.png
 C:\Users\User\Desktop\home_work\work\TestApp\TestApp\TestApp\obj\Debug\res\drawable\rightarrow.png
 C:\Users\User\Desktop\home_work\work\TestApp\TestApp\TestApp\obj\Debug\res\drawable\leftarrow.png
+C:\Users\User\Desktop\home_work\work\TestApp\TestApp\TestApp\obj\Debug\res\layout\rowlayout.xml
 C:\Users\User\Desktop\home_work\work\TestApp\TestApp\TestApp\obj\Debug\res\layout\loading.xml
 C:\Users\User\Desktop\home_work\work\TestApp\TestApp\TestApp\obj\Debug\res\values\strings.xml
 C:\Users\User\Desktop\home_work\work\TestApp\TestApp\TestApp\obj\Debug\res\mipmap-hdpi\icon.png
@@ -217,7 +218,8 @@ C:\Users\User\Desktop\home_work\work\TestApp\TestApp\TestApp\obj\Debug\android\a
 C:\Users\User\Desktop\home_work\work\TestApp\TestApp\TestApp\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
 C:\Users\User\Desktop\home_work\work\TestApp\TestApp\TestApp\obj\Debug\android\assets\System.Xml.dll.mdb
 C:\Users\User\Desktop\home_work\work\TestApp\TestApp\TestApp\obj\Debug\android\assets\TestApp.dll.mdb
-C:\Users\User\Desktop\home_work\work\TestApp\TestApp\TestApp\obj\Debug\res\layout\rowlayout.xml
 C:\Users\User\Desktop\home_work\work\TestApp\TestApp\TestApp\obj\Debug\TestApp.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\home_work\work\TestApp\TestApp\TestApp\obj\Debug\res\drawable\oneselected.png
+C:\Users\User\Desktop\home_work\work\TestApp\TestApp\TestApp\obj\Debug\res\drawable\onetapped.png
 C:\Users\User\Desktop\home_work\work\TestApp\TestApp\TestApp\obj\Debug\TestApp.dll.mdb
 C:\Users\User\Desktop\home_work\work\TestApp\TestApp\TestApp\bin\Debug\TestApp.dll.mdb

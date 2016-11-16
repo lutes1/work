@@ -34,7 +34,7 @@ namespace TestApp
 		    viewGroup = view.FindViewById<ViewGroup>(Resource.Id.linear_layout_popup);
 			textView1 = view.FindViewById<TextView>(Resource.Id.textView1);
 			textView3 = view.FindViewById<TextView>(Resource.Id.textView3);
-			listView = view.FindViewById<ListView>(Resource.Id.listView1);
+
 			files = getFiles();
 			adapter = new Adapter(context,files);
 			listView.Adapter = adapter;
