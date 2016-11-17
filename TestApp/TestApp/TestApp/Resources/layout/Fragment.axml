@@ -85,26 +85,26 @@
                 android:layout_width="@dimen/image_view_width"
                 android:layout_height="@dimen/image_view_height"
                 android:id="@+id/imageView4"
-                android:layout_alignParentTop="true"
+				android:layout_alignParentTop="true"
                 android:layout_alignParentLeft="true" />
             <ImageView
                 android:src="@android:drawable/ic_menu_gallery"
                 android:layout_width="@dimen/image_view_width"
                 android:layout_height="@dimen/image_view_height"
                 android:id="@+id/imageView5"
-                android:layout_alignParentRight="true"
+				android:layout_alignParentRight="true"
                 android:layout_alignParentTop="true" />
             <ImageView
                 android:src="@android:drawable/ic_menu_gallery"
                 android:layout_width="@dimen/image_view_width"
                 android:layout_height="@dimen/image_view_height"
                 android:id="@+id/imageView6"
-                android:layout_alignParentLeft="true"
+				android:layout_alignParentLeft="true"
                 android:layout_alignParentBottom="true" />
             <ImageView
                 android:src="@android:drawable/ic_menu_gallery"
                 android:id="@+id/imageView7"
-                android:layout_width="@dimen/image_view_width"
+				android:layout_width="@dimen/image_view_width"
                 android:layout_height="@dimen/image_view_height"
                 android:layout_alignParentRight="true"
                 android:layout_alignParentBottom="true" />
@@ -122,14 +122,14 @@
                 android:layout_width="@dimen/image_view_width"
                 android:layout_height="@dimen/image_view_height"
                 android:id="@+id/imageView8"
-                android:layout_alignParentTop="true"
+				android:layout_alignParentTop="true"
                 android:layout_alignParentLeft="true" />
             <ImageView
                 android:src="@android:drawable/ic_menu_gallery"
                 android:layout_width="@dimen/image_view_width"
                 android:layout_height="@dimen/image_view_height"
                 android:id="@+id/imageView9"
-                android:layout_alignParentLeft="false"
+				android:layout_alignParentLeft="false"
                 android:layout_alignParentRight="true"
                 android:layout_alignParentTop="true" />
             <ImageView
@@ -138,14 +138,14 @@
                 android:layout_height="@dimen/image_view_height"
                 android:id="@+id/imageView10"
                 android:layout_alignParentLeft="true"
-                android:layout_alignParentBottom="true"
+				android:layout_alignParentBottom="true"
                 android:layout_alignParentRight="false" />
             <ImageView
                 android:src="@android:drawable/ic_menu_gallery"
                 android:layout_width="@dimen/image_view_width"
                 android:layout_height="@dimen/image_view_height"
                 android:id="@+id/imageView11"
-                android:layout_alignParentRight="true"
+				android:layout_alignParentRight="true"
                 android:layout_alignParentBottom="true" />
         </RelativeLayout>
     </LinearLayout>

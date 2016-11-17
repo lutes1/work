@@ -314,13 +314,16 @@ namespace TestApp
 			public const int rightArrow = 2130837533;
 			
 			// aapt resource value: 0x7f02001e
-			public const int versione = 2130837534;
+			public const int shadow = 2130837534;
 			
 			// aapt resource value: 0x7f02001f
-			public const int work = 2130837535;
+			public const int versione = 2130837535;
 			
 			// aapt resource value: 0x7f020020
-			public const int work_icon_center = 2130837536;
+			public const int work = 2130837536;
+			
+			// aapt resource value: 0x7f020021
+			public const int work_icon_center = 2130837537;
 			
 			static Drawable()
 			{

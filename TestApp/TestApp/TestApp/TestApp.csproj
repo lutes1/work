@@ -69,6 +69,7 @@
     <AndroidResource Include="Resources\layout\rowLayout.axml" />
     <AndroidResource Include="Resources\drawable\oneSelected.png" />
     <AndroidResource Include="Resources\drawable\oneTapped.png" />
+    <AndroidResource Include="Resources\drawable\shadow.xml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Loading.axml" />

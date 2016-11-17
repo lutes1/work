@@ -49,6 +49,5 @@
 	<dimen name="arrows_view_margin">20dp</dimen>
 	<dimen name="image_view_height">90dp</dimen>
 	<dimen name="image_view_width">172dp</dimen>
-
 </resources>
 

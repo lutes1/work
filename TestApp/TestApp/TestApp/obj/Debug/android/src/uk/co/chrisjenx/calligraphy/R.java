@@ -103,9 +103,10 @@ containing a value of this type.
         public static final int rect_pressed=0x7f02001b;
         public static final int rect_states=0x7f02001c;
         public static final int rightarrow=0x7f02001d;
-        public static final int versione=0x7f02001e;
-        public static final int work=0x7f02001f;
-        public static final int work_icon_center=0x7f020020;
+        public static final int shadow=0x7f02001e;
+        public static final int versione=0x7f02001f;
+        public static final int work=0x7f020020;
+        public static final int work_icon_center=0x7f020021;
     }
     public static final class id {
         public static final int button1=0x7f060022;

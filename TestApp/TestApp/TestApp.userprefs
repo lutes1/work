@@ -1,4 +1,4 @@
-﻿<Properties StartupConfiguration="{215DA4A5-0B36-435C-9528-9C9B6FBD2E0A}|Default" StartupItem="TestApp\TestApp.csproj">
+﻿<Properties StartupConfiguration="{215DA4A5-0B36-435C-9528-9C9B6FBD2E0A}|Default">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
@@ -6,11 +6,12 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workbench ActiveDocument="TestApp\Work\ImageSet.cs">
     <Files>
-      <File FileName="TestApp\Activity\LogIn.cs" Line="104" Column="40" />
-      <File FileName="TestApp\Resources\values\dimen.xml" Line="48" Column="34" />
-      <File FileName="TestApp\Work\ImageSet.cs" Line="53" Column="4" />
-      <File FileName="TestApp\Fragments\photosPopUp.cs" Line="40" Column="1" />
+      <File FileName="TestApp\Activity\LogIn.cs" Line="113" Column="40" />
+      <File FileName="TestApp\Resources\values\dimen.xml" Line="52" Column="1" />
+      <File FileName="TestApp\Work\ImageSet.cs" Line="53" Column="8" />
+      <File FileName="TestApp\Resources\drawable\shadow.xml" Line="4" Column="22" />
+      <File FileName="TestApp\Resources\layout\Fragment.axml" Line="148" Column="5" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.TestApp AndroidDesignerPreferredDevice="Nexus 4" AndroidDesignerPreferredTheme="Theme.Black.NoTitleBar" PreferredExecutionTarget="Android.f6d0befd" />
+  <MonoDevelop.Ide.ItemProperties.TestApp AndroidDesignerPreferredDevice="Nexus 4" AndroidDesignerPreferredTheme="Theme.Black.NoTitleBar" PreferredExecutionTarget="Android.Android_Accelerated_x86" />
 </Properties>

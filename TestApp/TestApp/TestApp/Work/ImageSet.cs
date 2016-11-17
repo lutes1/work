@@ -1,4 +1,5 @@
 ﻿using System;
+using Android.Content;
 using Android.Views;
 using Android.Widget;
 
@@ -7,10 +8,13 @@ namespace TestApp
 	public class ImageSet
 	{
 		private string[] items;
-		int postion = 0;
+		int postion = 0,deletePosition = 0;
+		string[] selected = new string[16];
+		Context context;
 
-		public ImageSet(string[] items)
+		public ImageSet(string[] items,Context context)
 		{
+			this.context = context;
 			this.items = items;
 		}
 		public void loopLayout(ViewGroup viewGroup)
@@ -44,14 +48,40 @@ namespace TestApp
 					Console.WriteLine(items[postion]);
 					var path = Android.Net.Uri.Parse(items[postion]);
 					((ImageView)childview).SetImageURI(path);
-					Console.WriteLine("Position: " + postion);
+					((ImageView)childview).Tag = path;
+					((ImageView)childview).Alpha = 1;
+					//((ImageView)childview).SetBackgroundResource(0);
+					Console.WriteLine("Position: " + postion + " Tag: " + ((ImageView)childview).Tag);
 					}
 				else {
 					((ImageView)childview).SetImageResource(0);
 				}
 				postion++;
+				((ImageView)childview).LongClick += Handle_LongClick;	
+				
 			}
 
+		}
+		//handle long click!
+		void Handle_LongClick(object sender, View.LongClickEventArgs e)
+		{
+			selected[deletePosition] = ((ImageView)sender).Tag.ToString();
+			((ImageView)sender).Alpha = 0.5F;
+			//((ImageView)sender).SetBackgroundResource(Resource.Drawable.shadow);
+			ImageView iv = new ImageView(context);
+			iv.SetImageResource(Resource.Drawable.oneSelected);
+			iv.SetMaxWidth(15);
+			iv.SetMaxHeight(15);
+			((ViewGroup)((ImageView)sender).Parent).AddView(iv);
+			deletePosition++;
+			foreach (string selecteD in selected) {
+				Console.WriteLine(selecteD);
+			}
+
+		}
+		//get string
+		public string[] getDeleted() {
+			return selected;
 		}
 	}
 }

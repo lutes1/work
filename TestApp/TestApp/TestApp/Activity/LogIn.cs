@@ -26,8 +26,9 @@ namespace TestApp
 		ViewGroup viewGroup_main,linear_layout,relativeLayout1;
 		PopupWindow popupWindow;
 		LayoutInflater inflater;
-		ImageView next, back;
-		string[] files;
+		ImageView next, back,delete_file;
+		ImageSet imageset;
+		string[] files,deletedFiles;
 		int Clicks = 0;
 		int pages = 0;
           protected override void OnCreate(Bundle savedInstanceState)
@@ -39,8 +40,9 @@ namespace TestApp
 			fontSet = new FontSet(this);
 			fontSet.loopLayout(viewGroup_main);
 			files = getFiles();
-			pages = files.Length / 8 - 1 ;
 
+			if (files.Length % 8 != 0) pages = files.Length / 8;
+			else pages = files.Length / 8 - 1;
 		}
 		//find views
 		public void viewsFinder() { 
@@ -68,7 +70,7 @@ namespace TestApp
 			{   
 				Clicks++;
 				string[] files_folder = getFilesOnClick(Clicks);
-				ImageSet imageset = new ImageSet(files_folder);
+				imageset = new ImageSet(files_folder,this);
 				imageset.loopLayout(linear_layout);
 			}
 		}
@@ -78,7 +80,7 @@ namespace TestApp
 		    {
 				Clicks--;
 				string[] files_folder = getFilesOnClick(Clicks);
-				ImageSet imageset = new ImageSet(files_folder);
+				imageset = new ImageSet(files_folder,this);
 				imageset.loopLayout(linear_layout);
 			}
 
@@ -94,16 +96,18 @@ namespace TestApp
 			var view =  inflater.Inflate(Resource.Layout.Fragment,null);
 			ImageView imageview1 = view.FindViewById<ImageView>(Resource.Id.imageView4);
 			files = getFiles();
-			ImageSet imageset = new ImageSet(files);
+			imageset = new ImageSet(files,this);
 			linear_layout = view.FindViewById<LinearLayout>(Resource.Id.linearLayout3); 
 			imageset.loopLayout(linear_layout);
 			next = view.FindViewById<ImageView>(Resource.Id.rightArrow);
 			back = view.FindViewById<ImageView>(Resource.Id.leftArrow);
+			delete_file = view.FindViewById<ImageView>(Resource.Id.imageView1);
 			relativeLayout1 = view.FindViewById<RelativeLayout>(Resource.Id.relativeLayout1);
 			FontSet fontset = new FontSet(this);
 			fontset.loopLayout(relativeLayout1);
 			next.Click += next_Click;
 			back.Click += back_Click;
+			delete_file.Click += Delete_File_Click;
 			popupWindow = new PopupWindow(widthInDp,heightInDp);
 			popupWindow.ContentView = view;
 			popupWindow.OutsideTouchable = true;
@@ -113,6 +117,20 @@ namespace TestApp
 			popupWindow.ShowAtLocation((View)sender, GravityFlags.Center,0,10);	
 
 		}
+
+		void Delete_File_Click(object sender, EventArgs e)
+		{
+			deletedFiles = imageset.getDeleted();
+			foreach (string deleted in deletedFiles) {
+				Console.WriteLine(deleted);
+				if (deleted != null)
+				File.Delete(deleted);
+			}
+			string[] files_folder = getFilesOnClick(Clicks);
+			imageset = new ImageSet(files_folder,this);
+			imageset.loopLayout(linear_layout);
+		}
+
 		public string[] getFilesOnClick(int clicks)
 		{
 			string[] files_folder = Directory.GetFiles("//storage//emulated//0//DCIM//walls");
