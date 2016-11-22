@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2_popup"
+    android:id="@+id/linearLayout">
+    <TextView
+        android:text="lISTA Attività"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/standard_margin_top"
+        android:layout_marginBottom="@dimen/standard_margin_top"
+        android:textAllCaps="true"
+        android:textSize="@dimen/text_size_big" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button1_height"
+        android:id="@+id/relativeLayout1"
+        android:background="#500b415b"
+        android:layout_gravity="center_vertical">
+        <TextView
+            android:text="Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:textColor="#fff"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/standard_margin_top"
+            android:textSize="@dimen/text_size" />
+        <CheckBox
+            android:id="@+id/checkBox1"
+            android:layout_alignParentRight="true"
+            android:button="@drawable/checkbox_states"
+            android:layout_width="@dimen/checkbox_xy"
+            android:layout_height="@dimen/checkbox_xy"
+            android:background="@drawable/checkbox_states"
+            android:layout_marginRight="@dimen/standard_margin_top"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#80116a85" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button1_height"
+        android:background="#500b415b"
+        android:id="@+id/relativeLayout2">
+        <TextView
+            android:text="Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:textColor="#fff"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/standard_margin_top"
+            android:textSize="@dimen/text_size" />
+        <CheckBox
+            android:button="@drawable/checkbox_states"
+            android:layout_width="@dimen/checkbox_xy"
+            android:layout_height="@dimen/checkbox_xy"
+            android:background="@drawable/checkbox_states"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/standard_margin_top"
+            android:id="@+id/checkBox2"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#80116a85" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button1_height"
+        android:background="#500b415b"
+        android:id="@+id/relativeLayout3">
+        <TextView
+            android:text="Text"
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/standard_margin_top"
+            android:textSize="@dimen/text_size" />
+        <CheckBox
+            android:button="@drawable/checkbox_states"
+            android:layout_width="@dimen/checkbox_xy"
+            android:layout_height="@dimen/checkbox_xy"
+            android:id="@+id/checkBox3"
+            android:background="@drawable/checkbox_states"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/standard_margin_top"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#80116a85" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button1_height"
+        android:background="#500b415b"
+        android:id="@+id/relativeLayout4">
+        <TextView
+            android:text="Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:textColor="#fff"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/standard_margin_top"
+            android:textSize="@dimen/text_size" />
+        <CheckBox
+            android:button="@drawable/checkbox_states"
+            android:layout_width="@dimen/checkbox_xy"
+            android:layout_height="@dimen/checkbox_xy"
+            android:id="@+id/checkBox4"
+            android:background="@drawable/checkbox_states"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/standard_margin_top"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <Button
+        android:text="Conferma"
+        android:layout_width="@dimen/button2_width"
+        android:layout_height="@dimen/button2_height"
+        android:id="@+id/button1"
+        android:textAllCaps="true"
+        android:layout_marginTop="@dimen/conferma_margin"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_states"
+        android:textColor="#fff"
+        android:textSize="@dimen/text_size" />
+</LinearLayout>

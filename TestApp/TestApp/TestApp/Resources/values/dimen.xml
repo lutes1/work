@@ -49,5 +49,14 @@
 	<dimen name="arrows_view_margin">20dp</dimen>
 	<dimen name="image_view_height">90dp</dimen>
 	<dimen name="image_view_width">172dp</dimen>
+	<dimen name="FormHeight">400dp</dimen>
+	<dimen name="button_form_width">100dp</dimen>
+	<dimen name="button_form_height">35dp</dimen>
+	<dimen name="increment_decrement_buttons_dimens">25dp</dimen>
+	<dimen name="linear_layout_form_width">130dp</dimen>
+	<dimen name="divider_height">25dp</dimen>
+	<dimen name="list_item_margin_from_center">125dp</dimen>
+	<dimen name="padding_increment_RR">2dp</dimen>
+	<dimen name="conferma_margin">150dp</dimen>
 </resources>
 

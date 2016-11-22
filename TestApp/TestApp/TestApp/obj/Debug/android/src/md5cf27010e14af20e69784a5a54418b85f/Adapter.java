@@ -10,8 +10,8 @@ public class Adapter
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_getCount:()I:GetGetCountHandler\n" +
 			"n_getItem:(I)Ljava/lang/Object;:GetGetItem_IHandler\n" +
+			"n_getCount:()I:GetGetCountHandler\n" +
 			"n_getItemId:(I)J:GetGetItemId_IHandler\n" +
 			"n_getView:(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;:GetGetView_ILandroid_view_View_Landroid_view_ViewGroup_Handler\n" +
 			"";
@@ -26,12 +26,13 @@ public class Adapter
 			mono.android.TypeManager.Activate ("TestApp.Adapter, TestApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
 	}
 
-	public Adapter (android.content.Context p0, java.lang.String[] p1) throws java.lang.Throwable
+
+	public java.lang.Object getItem (int p0)
 	{
-		super ();
-		if (getClass () == Adapter.class)
-			mono.android.TypeManager.Activate ("TestApp.Adapter, TestApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "Android.Content.Context, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065:System.String[], mscorlib, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e", this, new java.lang.Object[] { p0, p1 });
+		return n_getItem (p0);
 	}
+
+	private native java.lang.Object n_getItem (int p0);
 
 
 	public int getCount ()
@@ -40,14 +41,6 @@ public class Adapter
 	}
 
 	private native int n_getCount ();
-
-
-	public java.lang.Object getItem (int p0)
-	{
-		return n_getItem (p0);
-	}
-
-	private native java.lang.Object n_getItem (int p0);
 
 
 	public long getItemId (int p0)

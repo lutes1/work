@@ -16,7 +16,7 @@
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
     <AndroidUseLatestPlatformSdk>true</AndroidUseLatestPlatformSdk>
-  </PropertyGroup>
+      </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
@@ -50,10 +50,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Activity\Loading.cs" />
     <Compile Include="Activity\LogIn.cs" />
-    <Compile Include="Fragments\photosPopUp.cs" />
     <Compile Include="Work\FontSet.cs" />
     <Compile Include="Adapters\Adapter.cs" />
     <Compile Include="Work\ImageSet.cs" />
+    <Compile Include="Activity\Form.cs" />
+    <Compile Include="Work\Data.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -66,10 +67,27 @@
     <AndroidResource Include="Resources\drawable\bin.png" />
     <AndroidResource Include="Resources\drawable\rightArrow.png" />
     <AndroidResource Include="Resources\drawable\leftArrow.png" />
-    <AndroidResource Include="Resources\layout\rowLayout.axml" />
+    <AndroidResource Include="Resources\layout\row1Layout.axml" />
     <AndroidResource Include="Resources\drawable\oneSelected.png" />
     <AndroidResource Include="Resources\drawable\oneTapped.png" />
     <AndroidResource Include="Resources\drawable\shadow.xml" />
+    <AndroidResource Include="Resources\layout\FormLayout.axml" />
+    <AndroidResource Include="Resources\drawable\list_background.png" />
+    <AndroidResource Include="Resources\drawable\increment_states.xml" />
+    <AndroidResource Include="Resources\drawable\increment_pressed.xml" />
+    <AndroidResource Include="Resources\drawable\decrement_normal.xml" />
+    <AndroidResource Include="Resources\layout\row2Layout.axml" />
+    <AndroidResource Include="Resources\layout\row3Layout.axml" />
+    <AndroidResource Include="Resources\layout\row4Layout.axml" />
+    <AndroidResource Include="Resources\drawable\plus.xml" />
+    <AndroidResource Include="Resources\drawable\minus.xml" />
+    <AndroidResource Include="Resources\drawable\decrement_states.xml" />
+    <AndroidResource Include="Resources\drawable\increment_normal.xml" />
+    <AndroidResource Include="Resources\layout\TimePopUp.axml" />
+    <AndroidResource Include="Resources\layout\ChkPopUp.axml" />
+    <AndroidResource Include="Resources\drawable\decrement_pressed.xml" />
+    <AndroidResource Include="Resources\drawable\rectangle.xml" />
+    <AndroidResource Include="Resources\drawable\check.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Loading.axml" />
@@ -100,7 +118,6 @@
     <AndroidResource Include="Resources\drawable\rect.xml" />
     <AndroidResource Include="Resources\drawable\Buttons.xml" />
     <AndroidResource Include="Resources\drawable\Button2.xml" />
-    <AndroidResource Include="Resources\drawable\checkbox.xml" />
     <AndroidResource Include="Resources\drawable\checkbox_states.xml" />
     <AndroidResource Include="Resources\drawable\pin_states.xml" />
     <AndroidResource Include="Resources\drawable\button_states.xml" />
@@ -111,7 +128,6 @@
     <AndroidResource Include="Resources\drawable\big_button_pressed.xml" />
     <AndroidResource Include="Resources\drawable\c_checked.xml" />
     <AndroidResource Include="Resources\drawable\checkbox_normal.xml" />
-    <AndroidResource Include="Resources\drawable\check_hide.xml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\fonts\BebasNeueRegular.ttf" />

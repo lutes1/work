@@ -17,7 +17,7 @@ using Calligraphy;
 
 namespace TestApp
 {
-	[Activity(Theme = "@android:style/Theme.NoTitleBar",MainLauncher = true)]
+	[Activity(Theme = "@android:style/Theme.NoTitleBar")]
 	public class LogIn : Activity
 	{
 		
@@ -52,18 +52,11 @@ namespace TestApp
 			}
 		//event handlers
 		public void eventHandlers() { 
-			logInButton.Click += LogInButton_Click;
+			
 			confirmButton.Click += confirmButton_Click;
 		}
 		//button click handler-->popup
-        void LogInButton_Click(object sender, EventArgs e)
-        {
-			photosPopUp popUp = new photosPopUp(this);
-			FragmentTransaction transaction = FragmentManager.BeginTransaction();
-            popUp.Show(transaction, "popup");
-
-        }
-		void next_Click(object sender, EventArgs e)
+       void next_Click(object sender, EventArgs e)
 		{
 			
 			if (Clicks < pages)

@@ -1,17 +1,21 @@
-﻿<Properties StartupConfiguration="{215DA4A5-0B36-435C-9528-9C9B6FBD2E0A}|Default">
+﻿<Properties StartupItem="TestApp\TestApp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="TestApp\Work\ImageSet.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestApp\Adapters\Adapter.cs">
     <Files>
-      <File FileName="TestApp\Activity\LogIn.cs" Line="113" Column="40" />
-      <File FileName="TestApp\Resources\values\dimen.xml" Line="52" Column="1" />
-      <File FileName="TestApp\Work\ImageSet.cs" Line="53" Column="8" />
-      <File FileName="TestApp\Resources\drawable\shadow.xml" Line="4" Column="22" />
-      <File FileName="TestApp\Resources\layout\Fragment.axml" Line="148" Column="5" />
+      <File FileName="TestApp\Activity\Form.cs" Line="51" Column="22" />
+      <File FileName="TestApp\Activity\LogIn.cs" Line="103" Column="43" />
+      <File FileName="TestApp\Adapters\Adapter.cs" Line="119" Column="45" />
+      <File FileName="TestApp\Resources\values\dimen.xml" Line="60" Column="45" />
+      <File FileName="TestApp\Resources\drawable\c_checked.xml" Line="5" Column="9" />
+      <File FileName="TestApp\Resources\drawable\checkbox_normal.xml" Line="3" Column="55" />
+      <File FileName="TestApp\Resources\drawable\checkbox_states.xml" Line="3" Column="74" />
+      <File FileName="TestApp\Resources\drawable\checkbox.xml" Line="1" Column="1" />
+      <File FileName="TestApp\Resources\drawable\check_hide.xml" Line="6" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.TestApp AndroidDesignerPreferredDevice="Nexus 4" AndroidDesignerPreferredTheme="Theme.Black.NoTitleBar" PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MonoDevelop.Ide.ItemProperties.TestApp AndroidDesignerPreferredDevice="Nexus 4" AndroidDesignerPreferredTheme="Theme.Black.NoTitleBar" PreferredExecutionTarget="Android.f6d0befd" />
 </Properties>
