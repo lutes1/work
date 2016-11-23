@@ -21,10 +21,12 @@ namespace TestApp
 		LayoutInflater inflater,inflater2;
 		int widthInDp, heightInDp;
 		int checkbox_counter;
-		string save_id;
+		Button button_clear;
+		Form form;
 
 
-		public Adapter(Context context, List<Data> items,ListView listview,int widthInDp,int heightInDp,LinearLayout root )
+
+		public Adapter(Context context, List<Data> items,ListView listview,int widthInDp,int heightInDp,LinearLayout root,Button button_clear,Form form )
 		{
 			this.widthInDp = widthInDp;
 			this.heightInDp = heightInDp - 400;
@@ -32,7 +34,9 @@ namespace TestApp
 			fontset = new FontSet(context);
 			this.items = items;
 			mContext = context;
-			this.root = root; 
+			this.root = root;
+			this.button_clear = button_clear;
+			this.form = form;
 		}
 
 		public override Data this[int position]
@@ -61,21 +65,24 @@ namespace TestApp
 			View row = null;
 			ISharedPreferences prefs = mContext.GetSharedPreferences("data", FileCreationMode.Private);
 			ISharedPreferencesEditor edit = prefs.Edit();
+			button_clear.Click += delegate {
+				edit.Clear();
+				edit.Commit();
+		};
 //ROW1-----------------------------------------------------------------------------------------------------------------------------------------row1----------
 			if (items[position].type == 1) {
 				row = LayoutInflater.From(mContext).Inflate(Resource.Layout.row1Layout, null, false);
+
 				Button button = row.FindViewById<Button>(Resource.Id.button1);
 				TextView textview_row1 = row.FindViewById<TextView>(Resource.Id.textView1);
 				button.Text = items[position].text;
 				fontset.changeFont(row);
 				string save_id1 = position + "_time";
-				Console.WriteLine(save_id);
-				textview_row1.Text = prefs.GetString("time", "N/A");
+				textview_row1.Text = prefs.GetString(save_id1, "N/A");
 //timepicker popup
 				button.Click += delegate {
 					inflater = mContext.GetSystemService(Context.LayoutInflaterService) as LayoutInflater;
 					var view = inflater.Inflate(Resource.Layout.TimePopUp, null);
-					Console.WriteLine("Width: " + widthInDp + " Height: " + heightInDp);
 					RelativeLayout linearLayout = view.FindViewById<RelativeLayout>(Resource.Id.relativeLayout);
 					fontset.loopLayout(linearLayout);
 					PopupWindow popupWindow = new PopupWindow(widthInDp, heightInDp);
@@ -99,7 +106,7 @@ namespace TestApp
 						textview_row1.Text = timePicker.CurrentHour + " : " + timePicker.CurrentMinute;
 						string time = textview_row1.Text;
 						popupWindow.Dismiss();
-						edit.PutString("time", time);
+						edit.PutString(save_id1, time);
 						edit.Apply();
 					};
 					root.Alpha = 0.3F;
@@ -115,21 +122,21 @@ namespace TestApp
 				TextView textview = row.FindViewById<TextView>(Resource.Id.textView2);
 				TextView textview_info = row.FindViewById<TextView>(Resource.Id.textView1);
 				textview_info.Text = items[position].text;
-				save_id = position + "_counter";
-				textview.Text = prefs.GetInt(save_id, 0);
+				string save_id = position + "_counter";
+				textview.Text = prefs.GetString(save_id, "0");
 //increment click
 				increment.Click+= delegate {
 					var value = Int32.Parse(textview.Text);
 					value++;
 					textview.Text = value.ToString();
-					edit.PutInt(save_id, value);
+					edit.PutString(save_id, value.ToString());
 					edit.Apply();
 				};
 //decrement click
 				decrement.Click+= delegate {var value = Int32.Parse(textview.Text);
 					value--;
 					textview.Text = value.ToString();
-					edit.PutInt(save_id, value);
+					edit.PutString(save_id, value.ToString());
 					edit.Apply();
 			};
 
@@ -142,9 +149,8 @@ namespace TestApp
 				ChkPopupButton.Text = items[position].text;
 				fontset.changeFont(row);
 				TextView result_checkbox_selected = row.FindViewById<TextView>(Resource.Id.textView_checkboxes);
-				save_id = position + "_checkbox_counter";
-				result_checkbox_selected.Text = prefs.GetInt(save_id, -1).ToString();
-
+				string save_id_checkboxes = position + "_checkbox_counter";
+				result_checkbox_selected.Text = prefs.GetString(save_id_checkboxes, "N/A");
 //+++++++++++++++++++++checkbox popup
 				ChkPopupButton.Click+= delegate	 {inflater2 = mContext.GetSystemService(Context.LayoutInflaterService) as LayoutInflater;
 					var view = inflater2.Inflate(Resource.Layout.ChkPopUp, null);
@@ -174,10 +180,10 @@ namespace TestApp
 					RelativeLayout relativeLayout3 = view.FindViewById<RelativeLayout>(Resource.Id.relativeLayout3);
 					RelativeLayout relativeLayout4 = view.FindViewById<RelativeLayout>(Resource.Id.relativeLayout4);
 
-					bool checkbox1_get_state = prefs.GetBoolean(save_id + "checkbox1", false);
-					bool checkbox2_get_state = prefs.GetBoolean(save_id + "checkbox2", false);
-					bool checkbox3_get_state = prefs.GetBoolean(save_id + "checkbox3", false);
-					bool checkbox4_get_state = prefs.GetBoolean(save_id + "checkbox4", false);
+					bool checkbox1_get_state = prefs.GetBoolean(save_id_checkboxes + "checkbox1", false);
+					bool checkbox2_get_state = prefs.GetBoolean(save_id_checkboxes + "checkbox2", false);
+					bool checkbox3_get_state = prefs.GetBoolean(save_id_checkboxes + "checkbox3", false);
+					bool checkbox4_get_state = prefs.GetBoolean(save_id_checkboxes + "checkbox4", false);
 
 					if (checkbox1_get_state)
 					{
@@ -214,11 +220,12 @@ namespace TestApp
 						popupWindow2.Dismiss();
 						result_checkbox_selected.Text = checkbox_counter.ToString();
 
-						edit.PutBoolean(save_id + "checkbox1", checkbox1.Checked);
-						edit.PutBoolean(save_id + "checkbox2", checkbox2.Checked);
-						edit.PutBoolean(save_id + "checkbox3", checkbox3.Checked);
-						edit.PutBoolean(save_id + "checkbox4", checkbox4.Checked);
-						edit.PutInt(save_id , checkbox_counter);
+						edit.PutBoolean(save_id_checkboxes + "checkbox1", checkbox1.Checked);
+						edit.PutBoolean(save_id_checkboxes + "checkbox2", checkbox2.Checked);
+						edit.PutBoolean(save_id_checkboxes + "checkbox3", checkbox3.Checked);
+						edit.PutBoolean(save_id_checkboxes + "checkbox4", checkbox4.Checked);
+						save_id_checkboxes = position + "_checkbox_counter";
+						edit.PutString(save_id_checkboxes , checkbox_counter.ToString());
 						edit.Apply();
 					};
 					
@@ -228,9 +235,19 @@ namespace TestApp
 			if (items[position].type == 4)
 			{
 				row = LayoutInflater.From(mContext).Inflate(Resource.Layout.row4Layout, null, false);
-				Button button = row.FindViewById<Button>(Resource.Id.button1_row4);
-				button.Text = items[position].text;
+				Button button_openCamera = row.FindViewById<Button>(Resource.Id.button1_row4);
+				Button button_openGallery = row.FindViewById<Button>(Resource.Id.button2_row4);
+				button_openCamera.Text = items[position].text;
 				fontset.changeFont(row);
+				button_openGallery.Click += delegate {
+					var openPopUp1 = new openPopUp(mContext, widthInDp, heightInDp + 400,root);
+					openPopUp1.open(button_openGallery);
+
+				};
+				button_openCamera.Click += delegate {
+					form.openCamera();
+			};
+
 			}
 			
 			return row;

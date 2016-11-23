@@ -4,17 +4,12 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="TestApp\Adapters\Adapter.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="TestApp\Activity\Form.cs" Line="51" Column="22" />
-      <File FileName="TestApp\Activity\LogIn.cs" Line="103" Column="43" />
-      <File FileName="TestApp\Adapters\Adapter.cs" Line="119" Column="45" />
-      <File FileName="TestApp\Resources\values\dimen.xml" Line="60" Column="45" />
-      <File FileName="TestApp\Resources\drawable\c_checked.xml" Line="5" Column="9" />
-      <File FileName="TestApp\Resources\drawable\checkbox_normal.xml" Line="3" Column="55" />
-      <File FileName="TestApp\Resources\drawable\checkbox_states.xml" Line="3" Column="74" />
-      <File FileName="TestApp\Resources\drawable\checkbox.xml" Line="1" Column="1" />
-      <File FileName="TestApp\Resources\drawable\check_hide.xml" Line="6" Column="1" />
+      <File FileName="TestApp\Activity\Form.cs" Line="44" Column="19" />
+      <File FileName="TestApp\Adapters\Adapter.cs" Line="156" Column="1" />
+      <File FileName="TestApp\Work\ImageSet.cs" Line="79" Column="21" />
+      <File FileName="TestApp\Work\openPopUp.cs" Line="123" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.TestApp AndroidDesignerPreferredDevice="Nexus 4" AndroidDesignerPreferredTheme="Theme.Black.NoTitleBar" PreferredExecutionTarget="Android.f6d0befd" />

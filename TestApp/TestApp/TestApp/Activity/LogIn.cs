@@ -43,6 +43,7 @@ namespace TestApp
 
 			if (files.Length % 8 != 0) pages = files.Length / 8;
 			else pages = files.Length / 8 - 1;
+			Console.WriteLine("New intent method-------");
 		}
 		//find views
 		public void viewsFinder() { 
@@ -152,5 +153,6 @@ namespace TestApp
 			string[] files_folder = Directory.GetFiles("//storage//emulated//0//DCIM//walls");
 			return files_folder;
 		}
+
 	}
 }

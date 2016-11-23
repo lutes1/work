@@ -11,7 +11,7 @@ namespace TestApp
 		int postion = 0,deletePosition = 0;
 		string[] selected = new string[16];
 		Context context;
-
+		ImageView iv;
 		public ImageSet(string[] items,Context context)
 		{
 			this.context = context;
@@ -50,7 +50,7 @@ namespace TestApp
 					((ImageView)childview).SetImageURI(path);
 					((ImageView)childview).Tag = path;
 					((ImageView)childview).Alpha = 1;
-					//((ImageView)childview).SetBackgroundResource(0);
+					Console.WriteLine(((ImageView)childview).Width + "<----Width" + ((ImageView)childview).Height+ "<-------Height" );
 					Console.WriteLine("Position: " + postion + " Tag: " + ((ImageView)childview).Tag);
 					}
 				else {
@@ -67,22 +67,26 @@ namespace TestApp
 		{
 			selected[deletePosition] = ((ImageView)sender).Tag.ToString();
 			((ImageView)sender).Alpha = 0.5F;
-			//((ImageView)sender).SetBackgroundResource(Resource.Drawable.shadow);
-			ImageView iv = new ImageView(context);
+			iv = new ImageView(context);
 			iv.SetImageResource(Resource.Drawable.oneSelected);
-			iv.SetMaxWidth(15);
-			iv.SetMaxHeight(15);
+			float x = ((ImageView)sender).GetX();
+			float y = ((ImageView)sender).GetY();
+			iv.ScaleX = 0.7F;
+			iv.ScaleY = 0.7F;
+			iv.SetX(x + 280);
+			iv.SetY(y + 120);
 			((ViewGroup)((ImageView)sender).Parent).AddView(iv);
 			deletePosition++;
+
 			foreach (string selecteD in selected) {
 				Console.WriteLine(selecteD);
 			}
-
 		}
 		//get string
 		public string[] getDeleted() {
 			return selected;
 		}
+
 	}
 }
 

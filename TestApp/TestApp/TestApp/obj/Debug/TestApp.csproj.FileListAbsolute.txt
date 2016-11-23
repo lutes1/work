@@ -317,6 +317,8 @@ C:\Users\User\Desktop\home_work\work\TestApp\TestApp\TestApp\obj\Debug\android\a
 C:\Users\User\Desktop\home_work\work\TestApp\TestApp\TestApp\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
 C:\Users\User\Desktop\home_work\work\TestApp\TestApp\TestApp\obj\Debug\android\assets\System.Xml.dll.mdb
 C:\Users\User\Desktop\home_work\work\TestApp\TestApp\TestApp\obj\Debug\android\assets\TestApp.dll.mdb
+C:\Users\User\Desktop\home_work\work\TestApp\TestApp\TestApp\obj\Debug\res\drawable\bin_states.xml
+C:\Users\User\Desktop\home_work\work\TestApp\TestApp\TestApp\obj\Debug\res\drawable\bin_clicked.png
 C:\Users\User\Desktop\home_work\work\TestApp\TestApp\TestApp\obj\Debug\TestApp.csprojResolveAssemblyReference.cache
 C:\Users\User\Desktop\home_work\work\TestApp\TestApp\TestApp\obj\Debug\TestApp.dll.mdb
 C:\Users\User\Desktop\home_work\work\TestApp\TestApp\TestApp\bin\Debug\TestApp.dll.mdb

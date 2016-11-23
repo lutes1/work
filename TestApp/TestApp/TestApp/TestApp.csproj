@@ -55,6 +55,7 @@
     <Compile Include="Work\ImageSet.cs" />
     <Compile Include="Activity\Form.cs" />
     <Compile Include="Work\Data.cs" />
+    <Compile Include="Work\openPopUp.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -88,6 +89,8 @@
     <AndroidResource Include="Resources\drawable\decrement_pressed.xml" />
     <AndroidResource Include="Resources\drawable\rectangle.xml" />
     <AndroidResource Include="Resources\drawable\check.png" />
+    <AndroidResource Include="Resources\drawable\bin_states.xml" />
+    <AndroidResource Include="Resources\drawable\bin_clicked.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Loading.axml" />

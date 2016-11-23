@@ -58,5 +58,8 @@
 	<dimen name="list_item_margin_from_center">125dp</dimen>
 	<dimen name="padding_increment_RR">2dp</dimen>
 	<dimen name="conferma_margin">150dp</dimen>
+	<dimen name="imageview_padding">2dp</dimen>
+
+
 </resources>
 

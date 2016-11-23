@@ -126,6 +126,9 @@ namespace TestApp
 			// aapt resource value: 0x7f070030
 			public const int image_view_width = 2131165232;
 			
+			// aapt resource value: 0x7f07003a
+			public const int imageview_padding = 2131165242;
+			
 			// aapt resource value: 0x7f070034
 			public const int increment_decrement_buttons_dimens = 2131165236;
 			
@@ -272,112 +275,118 @@ namespace TestApp
 			public const int bin = 2130837510;
 			
 			// aapt resource value: 0x7f020007
-			public const int Button2 = 2130837511;
+			public const int bin_clicked = 2130837511;
 			
 			// aapt resource value: 0x7f020008
-			public const int button_pressed = 2130837512;
+			public const int bin_states = 2130837512;
 			
 			// aapt resource value: 0x7f020009
-			public const int button_states = 2130837513;
+			public const int Button2 = 2130837513;
 			
 			// aapt resource value: 0x7f02000a
-			public const int Buttons = 2130837514;
+			public const int button_pressed = 2130837514;
 			
 			// aapt resource value: 0x7f02000b
-			public const int c_checked = 2130837515;
+			public const int button_states = 2130837515;
 			
 			// aapt resource value: 0x7f02000c
-			public const int check = 2130837516;
+			public const int Buttons = 2130837516;
 			
 			// aapt resource value: 0x7f02000d
-			public const int checkbox_normal = 2130837517;
+			public const int c_checked = 2130837517;
 			
 			// aapt resource value: 0x7f02000e
-			public const int checkbox_states = 2130837518;
+			public const int check = 2130837518;
 			
 			// aapt resource value: 0x7f02000f
-			public const int D = 2130837519;
+			public const int checkbox_normal = 2130837519;
 			
 			// aapt resource value: 0x7f020010
-			public const int decrement_normal = 2130837520;
+			public const int checkbox_states = 2130837520;
 			
 			// aapt resource value: 0x7f020011
-			public const int decrement_pressed = 2130837521;
+			public const int D = 2130837521;
 			
 			// aapt resource value: 0x7f020012
-			public const int decrement_states = 2130837522;
+			public const int decrement_normal = 2130837522;
 			
 			// aapt resource value: 0x7f020013
-			public const int icon_right_top = 2130837523;
+			public const int decrement_pressed = 2130837523;
 			
 			// aapt resource value: 0x7f020014
-			public const int increment_normal = 2130837524;
+			public const int decrement_states = 2130837524;
 			
 			// aapt resource value: 0x7f020015
-			public const int increment_pressed = 2130837525;
+			public const int icon_right_top = 2130837525;
 			
 			// aapt resource value: 0x7f020016
-			public const int increment_states = 2130837526;
+			public const int increment_normal = 2130837526;
 			
 			// aapt resource value: 0x7f020017
-			public const int leftArrow = 2130837527;
+			public const int increment_pressed = 2130837527;
 			
 			// aapt resource value: 0x7f020018
-			public const int list_background = 2130837528;
+			public const int increment_states = 2130837528;
 			
 			// aapt resource value: 0x7f020019
-			public const int loading_animation = 2130837529;
+			public const int leftArrow = 2130837529;
 			
 			// aapt resource value: 0x7f02001a
-			public const int logo_cliente = 2130837530;
+			public const int list_background = 2130837530;
 			
 			// aapt resource value: 0x7f02001b
-			public const int minus = 2130837531;
+			public const int loading_animation = 2130837531;
 			
 			// aapt resource value: 0x7f02001c
-			public const int oneSelected = 2130837532;
+			public const int logo_cliente = 2130837532;
 			
 			// aapt resource value: 0x7f02001d
-			public const int oneTapped = 2130837533;
+			public const int minus = 2130837533;
 			
 			// aapt resource value: 0x7f02001e
-			public const int pin_states = 2130837534;
+			public const int oneSelected = 2130837534;
 			
 			// aapt resource value: 0x7f02001f
-			public const int plus = 2130837535;
+			public const int oneTapped = 2130837535;
 			
 			// aapt resource value: 0x7f020020
-			public const int powered_by = 2130837536;
+			public const int pin_states = 2130837536;
 			
 			// aapt resource value: 0x7f020021
-			public const int poweredby = 2130837537;
+			public const int plus = 2130837537;
 			
 			// aapt resource value: 0x7f020022
-			public const int rect = 2130837538;
+			public const int powered_by = 2130837538;
 			
 			// aapt resource value: 0x7f020023
-			public const int rect_pressed = 2130837539;
+			public const int poweredby = 2130837539;
 			
 			// aapt resource value: 0x7f020024
-			public const int rect_states = 2130837540;
+			public const int rect = 2130837540;
 			
 			// aapt resource value: 0x7f020025
-			public const int rectangle = 2130837541;
+			public const int rect_pressed = 2130837541;
 			
 			// aapt resource value: 0x7f020026
-			public const int rightArrow = 2130837542;
+			public const int rect_states = 2130837542;
 			
 			// aapt resource value: 0x7f020027
-			public const int shadow = 2130837543;
+			public const int rectangle = 2130837543;
 			
 			// aapt resource value: 0x7f020028
-			public const int versione = 2130837544;
+			public const int rightArrow = 2130837544;
 			
 			// aapt resource value: 0x7f020029
-			public const int work = 2130837545;
+			public const int shadow = 2130837545;
 			
 			// aapt resource value: 0x7f02002a
-			public const int work_icon_center = 2130837546;
+			public const int versione = 2130837546;
+			
+			// aapt resource value: 0x7f02002b
+			public const int work = 2130837547;
+			
+			// aapt resource value: 0x7f02002c
+			public const int work_icon_center = 2130837548;
 			
 			static Drawable()
 			{
@@ -406,6 +415,9 @@ namespace TestApp
 			
 			// aapt resource value: 0x7f06001f
 			public const int button2 = 2131099679;
+			
+			// aapt resource value: 0x7f060046
+			public const int button2_row4 = 2131099718;
 			
 			// aapt resource value: 0x7f06003f
 			public const int button3 = 2131099711;
@@ -512,8 +524,8 @@ namespace TestApp
 			// aapt resource value: 0x7f06002e
 			public const int loading = 2131099694;
 			
-			// aapt resource value: 0x7f060046
-			public const int relativeLayout = 2131099718;
+			// aapt resource value: 0x7f060047
+			public const int relativeLayout = 2131099719;
 			
 			// aapt resource value: 0x7f060003
 			public const int relativeLayout1 = 2131099651;
@@ -599,8 +611,8 @@ namespace TestApp
 			// aapt resource value: 0x7f060043
 			public const int textView_checkboxes = 2131099715;
 			
-			// aapt resource value: 0x7f060047
-			public const int timePicker1 = 2131099719;
+			// aapt resource value: 0x7f060048
+			public const int timePicker1 = 2131099720;
 			
 			// aapt resource value: 0x7f060030
 			public const int top_bar = 2131099696;

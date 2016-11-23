@@ -29,5 +29,16 @@
             android:background="@android:color/darker_gray"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true" />
+        <Button
+            android:text="Open Gallery"
+            android:background="@drawable/big_button_states"
+            android:layout_width="@dimen/button_form_width"
+            android:layout_height="@dimen/button_form_height"
+            android:textSize="@dimen/text_size"
+            android:id="@+id/button2_row4"
+            android:layout_centerVertical="true"
+            android:textColor="#fff"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/margin_left_text" />
     </RelativeLayout>
 </LinearLayout>
